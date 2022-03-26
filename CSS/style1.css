@@ -1,0 +1,354 @@
+html{
+    font-family: "Lato", "Helvetica Neue" , "Helvetica", "Arial", "sans-serif";
+}
+
+body{
+    background-color: #ffffff;
+    margin: 0;
+}
+p{
+    color: #5d6660;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: "Lato", "Helvetica Neue" , "Helvetica", "Arial", "sans-serif";
+}
+
+header{
+    background-color: #ffffff;
+    height: 80px;
+}
+#header-container{
+    width: 75%;
+    margin: auto;
+    
+}
+.three-col{
+    width: 33%;
+    float: left;
+}
+.Logo{
+    padding-top: 30px;
+    height: 70px;
+}
+.menu{
+    margin-top: 32px;
+}
+.menu li{
+    list-style-type: none;
+    display: inline;
+/*    float: left ; we can also use this*/
+    font-size: 1em;
+    color: black;
+    padding-right: 30px;
+}
+.li-1:hover{
+    background-color: gray;
+    opacity: 50%;
+}
+
+.gettingstarted{
+    background-color: #6dc77a;
+    border-radius: 28px;
+    -moz-border-radius: 28px;
+    -webkit-border-radius: 28px;
+    text-decoration: none;
+    color:#ffffff;
+    padding: 10px 26px;
+    margin-top: 20px;
+    display: inline-block;
+    font-size: 17px;
+    
+}
+.gettingstarted:hover{
+    background-color: darkgreen;
+}
+#top-section-main{
+    background-image: url('../picture/rbfrbr.jpg');
+   padding-bottom: 100px;
+    width: 100%; 
+    border: none;
+}
+#top-section-content{
+    width: 60;
+    margin-left: auto;
+    margin-left: auto;
+    margin-top: 0;
+}
+#top-section-content h1{
+    font-size: 4em;
+    font-weight: 300;
+    text-align: center;
+    color: #ffffff;
+    margin-top:100;
+    margin-bottom: 15px;
+    padding-top: 70px;
+    
+}
+#top-section-content p{
+    font-size: 1.3em;
+    font-weight: 400;
+    text-align: center;
+    color: #ffffff;
+}
+.Play-button{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding: 50px 0 110px 0;
+}
+.Play-button:hover{
+    background-color: black;
+}
+.input-forms h4{
+    font-family: fantasy;
+    font-size: 1.2em;
+    font-weight: 100;
+    color: #ffffff;
+    text-align: center;
+}
+.input-forms input{
+    
+    margin: 0;
+    width: 30%;
+    height: 40px;
+    font-family: sans-serif;
+    font-size: 15px;
+    padding-left: 30px;
+    font-weight: 100;
+    border: none;
+    margin-left: center;
+    
+}
+.input-forms button{
+    width: 30%;
+    height: 43px;
+    font-family: sans-serif;
+    font-size: 15px;
+    padding-left: 30px;
+    font-weight: 100;
+    border: none;
+    margin-left: center;
+    background-color: #6dc77a;
+    color: #ffffff;
+    border: none;
+    
+}
+
+#features-page{
+    padding-top:100px;
+    font-size: 1em;
+    color: #333333;
+}
+
+.featured-h1 {
+    width: 50%;
+    text-align:center;
+    font-weight:00;
+    line-height: 1.5em;
+    margin: auto;
+}
+.featured-image{
+    margin: auto;
+    width: 80%;
+    text-align: center;
+    padding-top: 100px;
+}
+.featured-image three-col{
+    width: 100%;
+}
+.featured-image three-col p{
+font-size: 0.9em;
+    letter-spacing: 1px;
+    
+}
+.featured-image three-col h3{
+text-align: center;
+}
+.featured-image three-col{
+padding: 10px;
+    width: 30%;
+}
+#3showcase-universe{
+    padding-top: 60px;
+    background-color: black;
+    width: 100%;
+    clear: both;
+}
+.two-col{
+  
+    width: 48%;
+    float: left;
+    
+}
+.showcase{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    background: none;
+}
+.showcase-pic{
+    width: 100%;
+    height: 600px;
+}
+
+.showcaseh1-style{
+    padding-top: 250px;
+    padding-left: 50px;
+}
+.section-title{
+    width: 70%;
+    margin: auto;
+    line-height: 1.5em;
+    font font-weight: 200;
+    text-align: center;
+}
+.section-para{
+    width: 70%;
+    padding: 20px 10px 10px 10px;
+    margin: auto;
+    text-align: center;
+}
+#3bshowcase-universe{
+    padding-top: 60px;
+    background-color: black;
+    width: 100%;
+    clear: both;
+}
+
+
+#4Image-upon-text {
+    background-image: url('../picture/jocker-content.webp');
+
+        position: absolute;
+    height: 50px;
+    padding-bottom: 45px;
+    background-position: 50% 50%;
+}
+.title{
+font-size: 4em;
+font-weight: 300;
+text-align: center;
+color: darkslategray;
+margin-top: 0;
+padding-top: 100px;
+}
+.para-ti{
+font-size: 1.4em;
+font-weight: 300;
+text-align: start; 
+color: red; 
+margin: 20px; 
+padding-bottom:  100px;
+}
+.col-3{
+    width: 85%;
+   margin: auto;
+}
+.signup-button{
+    background-color: orange;
+    color: white;
+    font-size: 1.6em;
+    font-weight: 200;
+    text-decoration: none;
+    padding: 10px 50px 50px 10px;
+    float: right;
+    border-radius: 48px;
+}
+.signup-button:hover{
+background-color: darkred;
+}
+.signupform{
+    background-color: lightgrey;
+    margin-right: 200px;
+    padding: 0px 50px 10px 80px;
+    padding-left: 70px;
+}
+/*
+.signupform button:hover{
+    background-color: #5cbf2a;
+#6dc77a
+#5cbf2a
+}
+*/
+
+.signupform button{
+    font-family: sans-serif;
+    font-size: 15px;
+    border: none;
+    background-color: #6dc77a;
+    color: #ffffff;
+    border-color: black; 
+    margin-top: 15px;
+    font-weight: 100;
+    height: 50px;
+    width: 100%;
+    margin: 0;
+}
+.signupform h3{
+    color: black;
+    padding-top: 15px;
+    font-size: .9em;
+    text-align: center;
+}
+.margin-lag{
+    margin-top: 100px;
+    margin-left: 100px;
+}
+input{
+    margin: 0;
+    width: 100%;
+    height: 50px;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 100;
+    margin-top: 15px;
+    text-align: center;
+}
+.signupform p{
+    text-align: left;
+    line-height:1;
+}
+
+button:hover{
+    
+    background-color: #5cbf2a;
+
+
+}
+#test{
+    height: 100vh;
+    width: 100vw;
+    background-image: url('../picture/jocker-content.webp');
+    background-position: center;
+}
+footer{
+   height: 600px;
+    background-color: black;
+    clear: both;
+    background-image: url('../picture/footerrr.jpg');
+    background-position: 60% 40% 60% 40%;
+    
+}
+.footer-img{
+    width: 33%;
+    height: 40%;
+    float: left;
+    text-align: center;
+}
+.footer-img:hover{
+background-color: grey;
+    opacity: 50%;
+}
+.centered-img{
+    widows: 50px;
+    margin: auto;
+    padding-top: 60px;
+    
+}
+.copright{
+    color: #ffffff;
+    font-size: .9em;
+    text-align-last: center;
+    display: block;
+
+}
