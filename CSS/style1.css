@@ -6,6 +6,10 @@ body{
     background-color: #ffffff;
     margin: 0;
 }
+.explain{
+    margin-left: auto;
+    margin-right: auto;
+}
 p{
     color: #5d6660;
     font-size: 16px;
